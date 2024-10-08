@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTA - Kochen</title>
+    <!--Stylesheet verlinken!!!!! -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="index.html"
+        ><img src="img/logo.png" alt="BTA-Kochen" height="40" />
+      </a>
+      <!--Burgermenü-->
+      <button id="burger">
+        <img src="img/menu.svg" alt="Menü öffnen" height="40" />
+      </button>
+      <!--Navigation mit Liste für Links-->
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">Rezepte</a>
+          </li>
+          <li>
+            <a href="#">Kategorien</a>
+          </li>
+          <li>
+            <a href="#">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--hier beginnt der Hauptteil-->
+    <main>
+      <section class="hero">
+        <h1>Die besten Rezepte für Webworker</h1>
+        <p>Es gibt mehr als Pizza & Ravioli</p>
+        <a href="#" class="button">Entdecke die Leckereien</a>
+      </section>
+
+      <section class="recipes">
+        <h2>Die neuesten Rezepte</h2>
+        <div class="row">
+          <article class="card">
+            <img
+              src="img/burger.jpg"
+              alt="Hamburger mit Pommes"
+              class="card-image"
+            />
+            <h3 class="card-headline">Total leckerer Burger</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus fugit consequuntur itaque quaerat eum, cupiditate
+              maxime qui repudiandae voluptatem tempore.
+            </p>
+            <a href="#" class="button blue">zum Rezept</a>
+          </article>
+
+          <article class="card">
+            <img
+              src="img/burger.jpg"
+              alt="Hamburger mit Pommes"
+              class="card-image"
+            />
+            <h3 class="card-headline">Total leckerer Burger</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus fugit consequuntur itaque quaerat eum, cupiditate
+              maxime qui repudiandae voluptatem tempore.
+            </p>
+            <a href="#" class="button blue">zum Rezept</a>
+          </article>
+
+          <article class="card">
+            <img
+              src="img/burger.jpg"
+              alt="Hamburger mit Pommes"
+              class="card-image"
+            />
+            <h3 class="card-headline">Total leckerer Burger</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus fugit consequuntur itaque quaerat eum, cupiditate
+              maxime qui repudiandae voluptatem tempore.
+            </p>
+            <a href="#" class="button blue">zum Rezept</a>
+          </article>
+
+          <article class="card">
+            <img
+              src="img/burger.jpg"
+              alt="Hamburger mit Pommes"
+              class="card-image"
+            />
+            <h3 class="card-headline">Total leckerer Burger</h3>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Repellendus fugit consequuntur itaque quaerat eum, cupiditate
+              maxime qui repudiandae voluptatem tempore.
+            </p>
+            <a href="#" class="button blue">zum Rezept</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!--hier endet der Hauptteil-->
+    <!-- Hoshi Content-->
+    <aside>
+      <h2>Kein Rezept mehr verpassen</h2>
+      <p>Hol dir unseren Newsletter</p>
+      <form action="" method="post">
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Deine Emailadresse"
+        />
+        <button type="submit" class="button">Abonnieren</button>
+      </form>
+    </aside>
+
+    <footer>
+      <!-- Footernavigation links -->
+      <nav class="footer-nav-left">
+        <ul>
+          <li>
+            <a href="#">Impressum</a>
+          </li>
+          <li>
+            <a href="#">Datenschutz</a>
+          </li>
+          <li>
+            <a href="#">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Footernavigation rechts -->
+      <nav class="footer-nav-right">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img
+                src="img/facebook.svg"
+                alt="Facebook"
+                width="32"
+                height="32"
+            /></a>
+          </li>
+          <li>
+            <!-- bei SVG-Bildern muss immer eine Höhe und Breite definitert werden -->
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img
+                src="img/instagram.svg"
+                alt="Facebook"
+                width="32"
+                height="32"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><img src="img/youtube.svg" alt="Facebook" width="32" height="32"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <!--JavaScript einbinden-->
+    <script src="js/menu.js"></script>
+  </body>
+</html>
